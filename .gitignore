@@ -1,0 +1,10 @@
+# Игнорировать папку .terraform
+.terraform/
+
+# Игнорировать файлы с чувствительными данными
+*.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Игнорировать локальные файлы Terraform
+.terraform.lock.hcl
